@@ -1,0 +1,45 @@
+.social-widget ul li a {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.social-widget ul li a i {
+    margin-right: 10px;
+} 
+#je_contact input, #je_contact textarea {
+    background: transparent;
+    width: 100%; 
+    border: 1px solid transparent;
+    border-radius: 0px;
+    box-shadow: none !important;
+    padding-left: 25px;
+    border: 1px solid #363636;
+    color: #D8D8D8;
+}
+#je_contact input{ 
+    height: 50px;
+}
+#je_contact button[type="submit"], .qcbutton a.je_button {
+	background: #222121;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 22px;
+    border: 1px solid #59C378;
+    border-radius: 55px;
+    text-transform: capitalize;
+    z-index: 1;
+    position: relative;	
+    height: inherit;
+    line-height: inherit;
+}
+#je_contact button[type="submit"]:hover, .qcbutton a.je_button:hover {
+    background: #46bc69;
+}
+@media screen and (min-width: 992px){
+	.wpo-site-header #navbar > ul > li > a:hover:before, .wpo-site-header #navbar > ul > li.current-menu-item a:before, .wpo-site-header #navbar > ul > li > a.active:before, .wpo-site-header #navbar > ul > li.active > a:before {
+		opacity: 1;
+		visibility: visible;
+	}
+}
